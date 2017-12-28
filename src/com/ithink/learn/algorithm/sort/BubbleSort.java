@@ -2,6 +2,12 @@ package com.ithink.learn.algorithm.sort;
 
 import java.util.Arrays;
 
+/**
+ * 冒泡排序：
+ * 每次在无序的队列里，从头开始依次将两个相邻的元素比较，然后将小的放到前面
+ * 每次循环玩，最大的数都会移到最后
+ * @author mingshashan
+ */
 public class BubbleSort {
 	public static int[] sort(int[] array) {
 		int temp = 0;

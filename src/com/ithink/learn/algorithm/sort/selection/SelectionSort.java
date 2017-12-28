@@ -2,6 +2,11 @@ package com.ithink.learn.algorithm.sort.selection;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序：
+ * 每次从未排序的队列中选出最小的，放到已经排好序的队列的最后面，并从无序队列中除去该值
+ * @author mingshashan
+ */
 public class SelectionSort {
 	public static int[] sort(int[] array) {
 		int index = 0;

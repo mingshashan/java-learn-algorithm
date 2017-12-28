@@ -2,6 +2,13 @@ package com.ithink.learn.algorithm.sort.insert;
 
 import java.util.Arrays;
 
+/**
+ * 插入排序：
+ * 假定数组的第一个元素是一个有序序列，然后从第二个元素开始将元素追个插入到前面的有序队列中
+ * 需要不断的移动序列，将元素插入到合适的位置
+ * @author mingshashan
+ *
+ */
 public class StraightInsertionSort {
 
 	public static int[] sort(int[] array) {
